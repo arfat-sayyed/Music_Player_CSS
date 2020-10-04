@@ -1,0 +1,627 @@
+body{
+    background-color: rgb(2, 2, 26);
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/*Navigation Bar CSS Code Start*/
+.nav{
+    width: 93%;
+    height: 120px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.brand-img-size{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.profile-img-size{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.nav-brand-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5em;
+    margin: 0 10px;
+}
+
+.nav-fav-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+    margin: 0 60px;
+}
+
+.nav-search-bar{
+    width: 400px;
+    height: 35px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.search-bar-img-left{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.search-bar-img-right{
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.noti-main{
+    position: relative;
+}
+
+.noti-red{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 8px;
+    left: 70px;
+}
+
+.noti-img-size{
+    width: 40px;
+    height: 40px;
+    margin: 0 50px;   
+}
+
+/*Navigation Bar CSS Code End*/
+
+/*Main Content CSS Code Start*/
+
+
+.main-content{
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    padding: 0;
+    display: flex
+}
+
+.main-content-left{
+    width: 75%;
+}
+
+.big-posters{
+    background-color: darkslategrey;
+    height: 400px;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.big-posters img{
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+}
+
+.main-artist{
+    margin: 20px;
+}
+.artist-text-head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+.artist-text-p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+;    font-size: 1em;
+color: wheat
+}
+
+.artist-btn{
+    display: flex;
+    margin-top: 30px;
+}
+
+.btn-edit{
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(28,20,154,1) 0%, rgba(166,24,184,1) 100%);
+    border: none;
+    font-size:1.5em;
+    color: white;
+}
+
+.btn-edit-2{
+    width: 200px;
+    height: 40px;
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-size:1.5em;
+}
+
+
+
+/*Latest Release CSS Code Start*/
+
+.title-text
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+.song-title-text
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.grey
+{
+    color: gray;
+    font-weight: normal;
+    font-size: 1.1em;
+}
+
+.latest-songs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.latest-songs-profile img{
+    width: 120px;
+    height: 120px;
+}
+
+.latest-songs-profile{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.right-section{
+    position: absolute;
+    font-size: 1.4em;
+    top: 0;
+    right: 0;
+    padding: 0;
+}
+.right-section-time{
+    position: absolute;
+    font-size: 0.9em;
+    top: 40%;
+    right: 1%;
+    padding: 0;
+}
+
+/*Popular Artists CSS Code Start*/
+
+.artist-profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.each-profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.each-profile{
+    margin: 20px;
+}
+
+.artist-title-text
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/*Music Mood CSS Code Start*/
+
+.music-mood-section{
+    background-color: rgb(4, 4, 78);
+    height: auto;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.mood-profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.each-mood img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.each-mood{
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.mood-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.big-music-type-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.big-music-type{
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.big-music-type-img{
+    width:420px;
+    height: auto;
+    overflow: hidden;
+    opacity: 0.6;    
+}
+
+.big-music-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.each-music img{
+    width: 180px;
+    height: 180px;
+}
+
+.each-music{
+    margin: 10px;
+}
+
+.text-center{
+    margin: 2px !important;
+    text-align: center;
+}
+
+
+/* Main Content Right Section CSS Start*/
+
+.main-content-right{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.queue-songs{
+    height: auto;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.queue-songs::-webkit-scrollbar {
+    display: none;
+    }
+
+.queue-songs-profile img{
+    width: 70px;
+    height: 70px;
+    margin: 1px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.queue-songs-profile{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-left: 20px;
+    position: relative;
+
+}
+
+.right-section-queue{
+    position: absolute;
+    font-size: 2em;
+    padding: 0;
+    right: 0;
+}
+
+/* Dropwdown Queue Css Start */
+
+.dropdown-flex{
+      display: flex;
+      position: relative;
+      align-content: space-between;
+  }
+
+#list-type{
+      position: absolute;
+      right: 20px;
+      top: 10px;
+      background: transparent;
+      color: yellow;
+      border: none;
+      font-size: 1.3em;
+}
+
+#list-type option{
+      border: none;
+      font-size: 1em;
+      color: black;
+}
+  
+#dot-list{
+        background: transparent;
+        color: white;
+        border: none;
+        font-size: 1.4em;
+}
+
+    /*Image Zoom CSS Code Hover */
+.img-hover-zoom {
+        height: 300px; 
+        overflow: hidden;
+}
+      
+      
+.img-hover-zoom img {
+        transition: transform .5s ease;
+}
+      
+      
+.img-hover-zoom:hover img {
+        transform: scale(1.3);
+        
+}
+      /*Footer Music CSS Code Hover */
+
+.footer-music{
+        background-color: darkslategray;
+        height: 80px;
+        width: 100%;
+        position: sticky;
+        bottom: 0;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        margin: auto;
+}
+
+.left-footer{
+    display: flex;
+    margin-left: 5%;
+    position: relative;
+    align-content: center;
+}
+
+.left-footer img{
+        width: 70px;
+        height: 70px;
+        margin-top: 6px;
+}
+    
+.current-song-right{
+    position: absolute;
+    font-size: 1.5em;
+    left: 270px;
+    top: 10px;
+    padding: 0;
+}
+
+
+
+.middle-footer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 50%;
+
+
+}
+
+.right-footer{
+    display: flex;
+    align-content: center;
+    width: 20%;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.slide-upper{
+    display:flex;
+    align-content: center;
+    justify-content: space-between;
+    font-size: 1.5em;
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+.slidecontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size:1.2em;
+   
+}
+  
+  .slider {
+    width: 95%;
+  }
+
+.right-songs{
+    margin-top: 25px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-songs-profile img{
+    width: 120px;
+    height: 120px;
+}
+
+.right-songs-profile{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+}
+
+/*Icons Style CSS Code Start*/
+.each-song-b{
+    background-color: darkslategray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.each-i{
+    margin-right: 80px;
+}
+
+/*Main Content Responsive CSS Code Start*/
+
+@media only screen and (max-width: 768px) {
+    .nav{
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+        
+    }
+
+    .nav-left{
+        margin: 20px;
+        flex-direction: column;
+    }
+    .nav-right{
+        margin: 20px;
+        flex-direction: column;
+    }
+    .nav-brand-text{
+        padding: 10px;
+    }
+    .profile-img-size{
+        padding: 10px;
+    }
+    .noti-img-size{
+        padding: 20px;
+    }
+    .noti-red{
+        padding: 20px;
+    }
+
+    .main-content{
+        flex-direction: column;
+    }
+
+    .main-content-left{
+        width: 100%;
+    }
+    .main-content-right{
+        width: 100%;
+    }
+
+    .each-i{
+        margin-right: 10px;
+    }
+
+
+    .footer-music{
+        flex-direction: column;
+        height: 90px;
+        bottom: 0;
+        position: sticky;
+    }
+
+    .left-footer{
+        visibility: hidden;
+    }
+    .middle-footer{
+        align-content: center;
+        margin: auto;
+        margin-top: -80px;
+        justify-content: space-around;
+        display: flex;
+    }
+    .right-footer{
+        visibility: hidden;
+    }
+
+
+
+
+}
+
+.dropdowndot {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdowndot-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 0.8em;
+    color: black;
+  }
+  
+  .dropdowndot:hover .dropdowndot-content {
+    display: block;
+    cursor: pointer;
+  }
